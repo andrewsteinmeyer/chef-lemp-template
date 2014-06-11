@@ -1,9 +1,9 @@
 {
   "sources": {
     "build-essential": {
-      "locked_version": "2.0.3",
+      "locked_version": "2.0.5",
       "git": "https://github.com/opscode-cookbooks/build-essential",
-      "ref": "cb9201a6cf57e15c4995303f7e4df2dea462c3a6"
+      "ref": "400968913bfa8a4a5c9783b383c3b63899f2fe72"
     },
     "sudo": {
       "locked_version": "2.6.1",
@@ -63,12 +63,12 @@
     "mysql": {
       "locked_version": "5.2.13",
       "git": "https://github.com/opscode-cookbooks/mysql",
-      "ref": "4b70e99730ab4a7ce6c1dd7a35654a764fb6e0fe"
+      "ref": "d3bd8e7f8a725b793eeac3f29c3c7898ec0ed992"
     },
     "nginx-as": {
       "locked_version": "0.0.1",
       "git": "git@github.com:andrewsteinmeyer/nginx-as.git",
-      "ref": "4ccd1665b12b8cb1a1dd746b93de1899bbeb2e1d"
+      "ref": "ce60416bde254e60ab553ae573a135cbf67df133"
     },
     "rbenv": {
       "locked_version": "0.7.3",
@@ -88,7 +88,7 @@
     "php5-fpm": {
       "locked_version": "0.0.1",
       "git": "git@github.com:andrewsteinmeyer/php5-fpm.git",
-      "ref": "5d4e2b4fabc748c924200d91f33bd3ae9eac90cd"
+      "ref": "951637afd0e2b9be4f787275cf540f8978b69ea6"
     },
     "ruby_build": {
       "locked_version": "0.8.0"
