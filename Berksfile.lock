@@ -65,10 +65,10 @@
       "git": "https://github.com/opscode-cookbooks/mysql",
       "ref": "4b70e99730ab4a7ce6c1dd7a35654a764fb6e0fe"
     },
-    "nginx-tlq": {
-      "locked_version": "0.0.4",
-      "git": "git@github.com:TalkingQuickly/nginx-tlq.git",
-      "ref": "863f0faadbc5c61e925cb7de10dba97fc695fa89"
+    "nginx-as": {
+      "locked_version": "0.0.1",
+      "git": "git@github.com:andrewsteinmeyer/nginx-as.git",
+      "ref": "4ccd1665b12b8cb1a1dd746b93de1899bbeb2e1d"
     },
     "rbenv": {
       "locked_version": "0.7.3",
