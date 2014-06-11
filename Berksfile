@@ -15,7 +15,7 @@ cookbook 'rails_gem_dependencies-tlq', git: 'git@github.com:TalkingQuickly/rails
 
 cookbook 'openssl', git: 'https://github.com/opscode-cookbooks/openssl'
 cookbook 'mysql', git: 'https://github.com/opscode-cookbooks/mysql'
-cookbook 'nginx-tlq', git: 'git@github.com:TalkingQuickly/nginx-tlq.git'
+cookbook 'nginx-as', git: 'git@github.com:andrewsteinmeyer/nginx-as.git'
 cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv'
 cookbook 'nodejs', git: 'https://github.com/mdxp/nodejs-cookbook.git', branch: 'master'
 
