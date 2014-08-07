@@ -103,6 +103,9 @@ GEM
     knife-ec2 (0.8.0)
       fog (~> 1.20.0)
       knife-windows (>= 0.5.12)
+    knife-essentials (1.5.5)
+      chef
+      chef-zero (>= 1.5)
     knife-solo (0.3.0)
       chef (>= 10.12)
       erubis (~> 2.7.0)
@@ -218,6 +221,7 @@ DEPENDENCIES
   chef (~> 11.10.0)
   chef-zero (= 1.7.2)
   knife-ec2
-  knife-solo (= 0.3.0)
+  knife-essentials (> 0.0.0)
+  knife-solo
   multi_json
   unf

@@ -1,9 +1,9 @@
-site :opscode
+source "https://api.berkshelf.com"
 
 cookbook 'build-essential', git: 'https://github.com/opscode-cookbooks/build-essential'
 cookbook 'sudo', git: 'https://github.com/opscode-cookbooks/sudo.git'
-cookbook 'basic-security-tlq', git: 'git@github.com:TalkingQuickly/basic_security-tlq.git'
-cookbook 'look-and-feel-tlq', git: 'git@github.com:TalkingQuickly/look_and_feel-tlq.git'
+cookbook 'basic_security-tlq', git: 'git@github.com:TalkingQuickly/basic_security-tlq.git'
+cookbook 'look_and_feel-tlq', git: 'git@github.com:TalkingQuickly/look_and_feel-tlq.git'
 cookbook 'users', git: 'https://github.com/opscode-cookbooks/users.git'
 cookbook 'chef-solo-search', git: 'https://github.com/edelight/chef-solo-search'
 
@@ -20,4 +20,4 @@ cookbook 'rbenv', git: 'https://github.com/fnichol/chef-rbenv'
 cookbook 'nodejs', git: 'https://github.com/mdxp/nodejs-cookbook.git', branch: 'master'
 
 cookbook 'php', git: 'https://github.com/opscode-cookbooks/php.git'
-cookbook 'php5-fpm', git: 'git@github.com:andrewsteinmeyer/php5-fpm.git', branch: 'master'
+cookbook 'php5-fpm', git: 'https://github.com/andrewsteinmeyer/php5-fpm.git', branch: 'master'

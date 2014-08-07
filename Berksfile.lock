@@ -1,121 +1,110 @@
-{
-  "sources": {
-    "build-essential": {
-      "locked_version": "2.0.5",
-      "git": "https://github.com/opscode-cookbooks/build-essential",
-      "ref": "400968913bfa8a4a5c9783b383c3b63899f2fe72"
-    },
-    "sudo": {
-      "locked_version": "2.6.1",
-      "git": "https://github.com/opscode-cookbooks/sudo.git",
-      "ref": "8bbdff7302f7a86e18d1a3f029813c665b53b322"
-    },
-    "basic-security-tlq": {
-      "locked_version": "0.0.1",
-      "git": "git@github.com:TalkingQuickly/basic_security-tlq.git",
-      "ref": "903e2a0f1a047331eb47c7a979ff1daf583713ad"
-    },
-    "look-and-feel-tlq": {
-      "locked_version": "0.0.1",
-      "git": "git@github.com:TalkingQuickly/look_and_feel-tlq.git",
-      "ref": "bf3b58e4233af1455a615f66a61cd104d43415b6"
-    },
-    "users": {
-      "locked_version": "1.7.1",
-      "git": "https://github.com/opscode-cookbooks/users.git",
-      "ref": "fca9a42ab44dadbb98432c931dfc6c049ecc23ce"
-    },
-    "chef-solo-search": {
-      "locked_version": "0.5.1",
-      "git": "https://github.com/edelight/chef-solo-search",
-      "ref": "848fad1461c78fd502975f1df2e14eed12610635"
-    },
-    "memcached-tlq": {
-      "locked_version": "0.0.2",
-      "git": "git@github.com:TalkingQuickly/memcached-tlq.git",
-      "ref": "8ac6e2c68c32f79efcc4c19c7099b7db72ab158d"
-    },
-    "redis-tlq": {
-      "locked_version": "0.0.6",
-      "git": "git@github.com:TalkingQuickly/redis-tlq.git",
-      "ref": "0fd9ee3dcc7bd01f37e2e057b146595a7849e6aa"
-    },
-    "monit_configs-as": {
-      "locked_version": "0.0.1",
-      "git": "git@github.com:andrewsteinmeyer/monit_configs-as.git",
-      "ref": "851fe079ce836dd77ad7045467f1271855b90d9d"
-    },
-    "monit-tlq": {
-      "locked_version": "0.3.6",
-      "git": "git@github.com:TalkingQuickly/monit-tlq.git",
-      "ref": "1418ab881e7119b59de9c0722b58faefa5e765be"
-    },
-    "rails_gem_dependencies-tlq": {
-      "locked_version": "0.0.2",
-      "git": "git@github.com:TalkingQuickly/rails_gem_dependencies-tlq.git",
-      "ref": "86d443f34b93f59dc7a4ed7e51f46a42b2c79eb1"
-    },
-    "openssl": {
-      "locked_version": "1.1.1",
-      "git": "https://github.com/opscode-cookbooks/openssl",
-      "ref": "b9a52cdac76063059ff330e8427758cdeff5ee58"
-    },
-    "mysql": {
-      "locked_version": "5.2.13",
-      "git": "https://github.com/opscode-cookbooks/mysql",
-      "ref": "d3bd8e7f8a725b793eeac3f29c3c7898ec0ed992"
-    },
-    "nginx-as": {
-      "locked_version": "0.0.1",
-      "git": "git@github.com:andrewsteinmeyer/nginx-as.git",
-      "ref": "ce60416bde254e60ab553ae573a135cbf67df133"
-    },
-    "rbenv": {
-      "locked_version": "0.7.3",
-      "git": "https://github.com/fnichol/chef-rbenv",
-      "ref": "0a3018634bafe58ad21c6ee271af015220e444b9"
-    },
-    "nodejs": {
-      "locked_version": "1.3.0",
-      "git": "https://github.com/mdxp/nodejs-cookbook.git",
-      "ref": "e2415cd8c4e03dccf21d7ef6ca31e1c5c81467ca"
-    },
-    "php": {
-      "locked_version": "1.4.7",
-      "git": "https://github.com/opscode-cookbooks/php.git",
-      "ref": "180e5d23037809e840d6ed8600f50823c513791a"
-    },
-    "php5-fpm": {
-      "locked_version": "0.0.1",
-      "git": "git@github.com:andrewsteinmeyer/php5-fpm.git",
-      "ref": "951637afd0e2b9be4f787275cf540f8978b69ea6"
-    },
-    "ruby_build": {
-      "locked_version": "0.8.0"
-    },
-    "java": {
-      "locked_version": "1.22.0"
-    },
-    "apt": {
-      "locked_version": "2.4.0"
-    },
-    "yum-epel": {
-      "locked_version": "0.3.6"
-    },
-    "yum": {
-      "locked_version": "3.2.0"
-    },
-    "xml": {
-      "locked_version": "1.2.4"
-    },
-    "windows": {
-      "locked_version": "1.31.0"
-    },
-    "chef_handler": {
-      "locked_version": "1.1.6"
-    },
-    "iis": {
-      "locked_version": "2.1.2"
-    }
-  }
-}
+DEPENDENCIES
+  basic_security-tlq
+    git: git@github.com:TalkingQuickly/basic_security-tlq.git
+    revision: 1a8217fb260d13b5e1035aa8491872ca7ba9007d
+  build-essential
+    git: https://github.com/opscode-cookbooks/build-essential
+    revision: 400968913bfa8a4a5c9783b383c3b63899f2fe72
+  chef-solo-search
+    git: https://github.com/edelight/chef-solo-search
+    revision: 848fad1461c78fd502975f1df2e14eed12610635
+  look_and_feel-tlq
+    git: git@github.com:TalkingQuickly/look_and_feel-tlq.git
+    revision: bf3b58e4233af1455a615f66a61cd104d43415b6
+  memcached-tlq
+    git: git@github.com:TalkingQuickly/memcached-tlq.git
+    revision: 8ac6e2c68c32f79efcc4c19c7099b7db72ab158d
+  monit-tlq
+    git: git@github.com:TalkingQuickly/monit-tlq.git
+    revision: c9651ddc15941cae5aa4234af387088e3b10cebd
+    branch: master
+  monit_configs-as
+    git: git@github.com:andrewsteinmeyer/monit_configs-as.git
+    revision: 851fe079ce836dd77ad7045467f1271855b90d9d
+    branch: master
+  mysql
+    git: https://github.com/opscode-cookbooks/mysql
+    revision: abf418550a534cee433ded5f85a85f3296a9709e
+  nginx-as
+    git: git@github.com:andrewsteinmeyer/nginx-as.git
+    revision: ce60416bde254e60ab553ae573a135cbf67df133
+  nodejs
+    git: https://github.com/mdxp/nodejs-cookbook.git
+    revision: e2415cd8c4e03dccf21d7ef6ca31e1c5c81467ca
+    branch: master
+  openssl
+    git: https://github.com/opscode-cookbooks/openssl
+    revision: b75ab471185f108a2fadc5c43efb7e2ef057ab30
+  php
+    git: https://github.com/opscode-cookbooks/php.git
+    revision: 180e5d23037809e840d6ed8600f50823c513791a
+  php5-fpm
+    git: https://github.com/andrewsteinmeyer/php5-fpm.git
+    revision: 2bab4e55384a0c032dc9d8b64671bf4102560023
+    branch: master
+  rails_gem_dependencies-tlq
+    git: git@github.com:TalkingQuickly/rails_gem_dependencies-tlq.git
+    revision: f62ff22492dd9a2c31cd856de176c19f0fbe2d73
+  rbenv
+    git: https://github.com/fnichol/chef-rbenv
+    revision: 0a3018634bafe58ad21c6ee271af015220e444b9
+  redis-tlq
+    git: git@github.com:TalkingQuickly/redis-tlq.git
+    revision: 0fd9ee3dcc7bd01f37e2e057b146595a7849e6aa
+  sudo
+    git: https://github.com/opscode-cookbooks/sudo.git
+    revision: 11c6062031ac8575dc96d3adef94288634439f92
+  users
+    git: https://github.com/opscode-cookbooks/users.git
+    revision: fca9a42ab44dadbb98432c931dfc6c049ecc23ce
+
+GRAPH
+  apt (2.4.0)
+  basic_security-tlq (0.0.1)
+  build-essential (2.0.5)
+  chef-solo-search (0.5.1)
+  chef-sugar (2.0.0)
+  chef_handler (1.1.6)
+  iis (2.1.2)
+    windows (>= 1.2.6)
+  java (1.25.0)
+  look_and_feel-tlq (0.0.1)
+  memcached-tlq (0.0.2)
+  monit-tlq (0.3.7)
+  monit_configs-as (0.0.1)
+  mysql (5.3.6)
+    yum-mysql-community (>= 0.0.0)
+  nginx-as (0.0.1)
+  nodejs (1.3.0)
+    apt (>= 0.0.0)
+    build-essential (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  openssl (2.0.1)
+    chef-sugar (>= 0.0.0)
+  php (1.4.7)
+    build-essential (>= 0.0.0)
+    iis (>= 0.0.0)
+    mysql (>= 0.0.0)
+    windows (>= 0.0.0)
+    xml (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  php5-fpm (0.0.1)
+  rails_gem_dependencies-tlq (0.0.3)
+    apt (>= 0.0.0)
+  rbenv (0.7.3)
+    java (> 1.4.0)
+    ruby_build (>= 0.0.0)
+  redis-tlq (0.0.6)
+  ruby_build (0.8.0)
+  sudo (2.6.1)
+  users (1.7.1)
+  windows (1.34.0)
+    chef_handler (>= 0.0.0)
+  xml (1.2.6)
+    build-essential (>= 0.0.0)
+    chef-sugar (>= 0.0.0)
+  yum (3.2.2)
+  yum-epel (0.4.0)
+    yum (~> 3.0)
+  yum-mysql-community (0.1.10)
+    yum (>= 3.0)
