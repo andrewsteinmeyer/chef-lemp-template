@@ -20,7 +20,7 @@
     "rails_gem_dependencies-tlq",
     "ruby_build",
     "rbenv::system",
-		"nodejs::install_from_source"
+		"nodejs::install_from_package"
   ],
   "chef_type": "role",
   "override_attributes": {

@@ -43,6 +43,7 @@
   },
   "json_class": "Chef::Role",
   "run_list": [
+		"apt",
     // because secure passwords are nice
     "openssl",
     // for building things
